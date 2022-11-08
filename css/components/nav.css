@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--sub-color);
+  color: var(--point-color);
+  padding: 20px 0;
+}
+
+.nav__list:nth-child(2),
+.nav__list:last-child {
+  position: relative;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  font-size: 13px;
+  color: var(--font-color);
+  top: -9px;
+  right: -9px;
+}
+.nav__list:last-child .badge {
+  width: 5px;
+  height: 5px;
+  top: -3px;
+}

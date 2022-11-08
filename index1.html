@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar-column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar-column">
+        <span id="time"></span>
+      </div>
+      <div class="status-bar-column">
+        <span>75%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <div class="intro">
+      <h1 class="intro__title"></h1>
+      <span class="intro__subtitle">우리 같이 마블 친구들을 만나러 가요!!</span>
+    </div>
+
+    <form action="friends.html" class="whoami" onsubmit="return test()">
+      <img src="screenshot/whoami.jpg" alt="대충 Iron Man 짤이라는 뜻" />
+      <label>나의 생일은 언제일까요?</label>
+      <input
+        type="text"
+        id="password"
+        class="whoami__pw"
+        placeholder="yyyymmdd"
+        autocomplete="off"
+      />
+      <input type="submit" value="제출하기!" class="whoami__submit" />
+    </form>
+    <div class="hint">
+      <h3>힌트</h3>
+      <span>로버트 다우니 주니어의 생일은 1965년 04월 04일이다.</span>
+    </div>
+    <img src="" alt="" />
+    <script src="jscript.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a73efb9e25.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

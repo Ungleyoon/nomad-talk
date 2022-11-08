@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Nomad Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar-column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar-column">
+        <span id="time"></span>
+      </div>
+      <div class="status-bar-column">
+        <span>75%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+    <header class="index-header">
+      <img src="screenshot/로고2.png" alt="니꼬짤" />
+      <h1 class="index-header__title">Welcome to Nomad Talk</h1>
+      <p class="index-header__subtitle">
+        Please enter the name of the man below
+      </p>
+    </header>
+    <form class="user-test" action="friends.html" onsubmit="return test()">
+      <img src="screenshot/팔짱니꼬.jpeg" alt="" />
+      <input type="text" id="password" required placeholder="name" />
+      <input class="user-test__input" type="submit" value="Enter" />
+    </form>
+    <div class="hint">
+      <div class="hint__title">Hint</div>
+      <ul class="hint__list">
+        <li class="hint__content">니콜라스</li>
+        <li class="hint__content">니코</li>
+        <li class="hint__content">니콜라스 세라노 아레발로</li>
+        <li class="hint__content">박인</li>
+        <li class="hint__content">Nicolas</li>
+        <li class="hint__content">Nicolas Serrano Arevalo</li>
+      </ul>
+    </div>
+    <script src="javascript.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a73efb9e25.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
