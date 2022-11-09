@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Find</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar-column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar-column">
+        <span id="time"></span>
+      </div>
+      <div class="status-bar-column">
+        <span>75%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__column">
+        <img
+          src="https://nomadcoders.co/m.svg
+        "
+          alt="노마드코더 로고"
+        />
+        <h1>Find</h1>
+      </div>
+      <div class="header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <i class="fa-regular fa-comments fa-xl"></i>
+        <i class="fa-solid fa-code fa-xl"></i>
+        <i class="fa-solid fa-gear fa-xl"></i>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon">
+        <ul class="icon-row">
+          <li class="icon-row__content">
+            <i class="fa-solid fa-signs-post fa-xl"></i>
+            <span>Courses</span>
+          </li>
+          <li class="icon-row__content">
+            <i class="fa-solid fa-trophy fa-xl"></i>
+            <span>Challanges</span>
+          </li>
+          <li class="icon-row__content">
+            <i class="fa-solid fa-pen fa-xl"></i>
+            <span>reviews</span>
+          </li>
+          <li class="icon-row__content">
+            <i class="fa-solid fa-users fa-xl"></i>
+            <span>Community</span>
+          </li>
+        </ul>
+      </div>
+      <div class="recommened-friends">
+        <h3 class="recommened-friends__title">Recommended Friends</h3>
+
+        <a href="https://github.com/Ungleyoon" target="_blank"
+          ><div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="screenshot/gyuya.jpg"
+                alt="gyuya"
+                class="user-component__photo--lg"
+              />
+              <div class="user-component__text">
+                <h3 class="user-component__title--notBold">Gyuya</h3>
+                <span class="user-component__subtitle"
+                  >Nice to meet you. Please be my Friends!</span
+                >
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="fa-brands fa-github fa-xl"></i>
+            </div></div
+        ></a>
+      </div>
+      <div class="challange">
+        <div class="challange__title">
+          <h3>Challanges</h3>
+          <div class="challange__move">
+            <a href="https://nomadcoders.co/challenges" target="_blank">
+              <span>Go to Challanges Home</span>
+              <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="challange__row">
+          <div class="challange__text">
+            <h2 class="challange__row-title">#Kokoa Clone</h2>
+            <span class="challange__hashs">#Kokoa#beginer#Wecandoit</span>
+            <div class="challange__contents">
+              <img src="screenshot/쿵야3.jpeg" alt="쿵야사진" />
+              <span>494 members</span>
+              <div class="divider"></div>
+              <span>Active</span>
+            </div>
+          </div>
+          <div class="challange__img">
+            <img src="screenshot/코코아톡.png" />
+            <div class="challange__heart">
+              <i class="fa-solid fa-heart fa-sm"></i>
+              <span>1,524</span>
+            </div>
+          </div>
+        </div>
+        <div class="challange__row">
+          <div class="challange__text">
+            <h2 class="challange__row-title">#바닐라 JS</h2>
+            <span class="challange__hashs">#Momentum#JS#Create</span>
+            <div class="challange__contents">
+              <img src="screenshot/쿵야.jpeg" alt="쿵야사진" />
+              <span>503 members</span>
+              <div class="divider"></div>
+              <span>Active</span>
+            </div>
+          </div>
+          <div class="challange__img">
+            <img src="screenshot/바닐라js.png" />
+            <div class="challange__heart">
+              <i class="fa-solid fa-heart fa-sm"></i>
+              <span>2,153</span>
+            </div>
+          </div>
+        </div>
+        <div class="challange__row">
+          <div class="challange__text">
+            <h2 class="challange__row-title">#Youtube</h2>
+            <span class="challange__hashs">#NodeJs#ES6#Pug#Mongo</span>
+            <div class="challange__contents">
+              <img src="screenshot/쿵야2.jpeg" alt="쿵야사진" />
+              <span>65 members</span>
+              <div class="divider"></div>
+              <span>Active</span>
+            </div>
+          </div>
+          <div class="challange__img">
+            <img src="screenshot/유튭.png" />
+            <div class="challange__heart">
+              <i class="fa-solid fa-heart fa-sm"></i>
+              <span>735</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav>
+      <ul class="nav">
+        <li class="nav__list">
+          <a href="friends.html"><i class="fa-regular fa-user fa-xl"></i></a>
+        </li>
+        <li class="nav__list">
+          <a href="chats.html">
+            <i class="fa-regular fa-comment fa-xl"></i>
+            <div class="badge notification">13</div>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__list">
+          <a href="more.html">
+            <i class="fa-solid fa-ellipsis fa-xl"></i>
+            <div class="notification badge"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="javascript.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a73efb9e25.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -7,9 +7,12 @@
 @import "components/header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 /* Screens */
 @import "screens/index.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
 * {
   box-sizing: border-box;
 }
@@ -20,5 +23,8 @@ body {
   padding-bottom: 47px;
 }
 main {
-  margin: 20px;
+  margin-top: 100px;
+}
+.friends-screen {
+  margin-top: 20px;
 }

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chats</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar-column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar-column">
+        <span id="time"></span>
+      </div>
+      <div class="status-bar-column">
+        <span>75%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__column">
+        <img
+          src="https://nomadcoders.co/m.svg
+        "
+          alt="노마드코더 로고"
+        />
+        <h1>Chats</h1>
+      </div>
+      <div class="header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <i class="fa-regular fa-comments fa-xl"></i>
+        <i class="fa-solid fa-code fa-xl"></i>
+        <i class="fa-solid fa-gear fa-xl"></i>
+      </div>
+    </header>
+
+    <main class="main-screen chats-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/속편안한니코.jpeg"
+            alt="니콜라스 짤"
+            class="user-component__photo"
+          />
+          <div class="user-component__text">
+            <h3 class="user-component__title--notBold">속 편안한 니코</h3>
+            <span class="user-component__subtitle">I'm very powerful</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">10:01</span>
+          <span class="user-component__badge">2</span>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/커피니코.jpg"
+            alt="니콜라스 짤"
+            class="user-component__photo"
+          />
+          <div class="user-component__text">
+            <h3 class="user-component__title--notBold">Coffee Nico</h3>
+            <span class="user-component__subtitle">I'm very powerful</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">10:34</span>
+          <span class="user-component__badge">3</span>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/화투니코.jpeg"
+            alt="니콜라스 짤"
+            class="user-component__photo"
+          />
+          <div class="user-component__text">
+            <h3 class="user-component__title--notBold">화투 니꼬</h3>
+            <span class="user-component__subtitle">I'm very powerful</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">11:21</span>
+          <span class="user-component__badge">1</span>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/최준니코.jpg"
+            alt="니콜라스 짤"
+            class="user-component__photo"
+          />
+          <div class="user-component__text">
+            <h3 class="user-component__title--notBold">최준 니꼬</h3>
+            <span class="user-component__subtitle">I'm very powerful</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">11:57</span>
+          <span class="user-component__badge">5</span>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/근육니코.jpeg"
+            alt="니콜라스 짤"
+            class="user-component__photo"
+          />
+          <div class="user-component__text">
+            <h3 class="user-component__title--notBold">Muscle Nico</h3>
+            <span class="user-component__subtitle">I'm very powerful</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">13:11</span>
+          <span class="user-component__badge">1</span>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/따봉니코.jpg"
+            alt="니콜라스 짤"
+            class="user-component__photo"
+          />
+          <div class="user-component__text">
+            <h3 class="user-component__title--notBold">따봉니꼬</h3>
+            <span class="user-component__subtitle">I'm very powerful</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">16:49</span>
+          <span class="user-component__badge">4</span>
+        </div>
+      </div>
+    </main>
+
+    <nav>
+      <ul class="nav">
+        <li class="nav__list">
+          <a href="friends.html"><i class="fa-regular fa-user fa-xl"></i></a>
+        </li>
+        <li class="nav__list">
+          <a href="chats.html">
+            <i class="fa-solid fa-comment fa-xl"></i>
+            <div class="badge notification">13</div>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__list">
+          <a href="more.html">
+            <i class="fa-solid fa-ellipsis fa-xl"></i>
+            <div class="notification badge"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="javascript.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a73efb9e25.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

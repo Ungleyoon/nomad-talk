@@ -50,6 +50,7 @@
 .user-component__column:last-child {
   opacity: 0.5;
 }
+
 .user-component i {
   margin-left: 10px;
 }
