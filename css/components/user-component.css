@@ -40,11 +40,14 @@
   font-weight: normal;
 }
 
-.user-component__subtitle {
+.user-component__subtext {
   display: block;
   font-size: 14px;
   margin-top: 8px;
-  opacity: 0.5;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .user-component__column:last-child {

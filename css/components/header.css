@@ -24,3 +24,15 @@
 .header__column i {
   margin-left: 15px;
 }
+.header__gear-box {
+  position: relative;
+}
+.header__badge {
+  background-color: tomato;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+}
