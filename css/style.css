@@ -8,12 +8,17 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-header.css";
+@import "components/chatroom.css";
+@import "components/no-mobile.css";
+@import "components/splash-screen.css";
 /* Screens */
 @import "screens/index.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 * {
   box-sizing: border-box;
 }
@@ -22,8 +27,13 @@ body {
   color: var(--font-color); /* 폰트색상 */
   background-color: var(--background-color); /* 배경화면 */
   padding-bottom: 47px;
+  overflow: auto;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 main {
+  margin: var(--hrizon-padding);
   margin-top: 100px;
 }
 .friends-screen {

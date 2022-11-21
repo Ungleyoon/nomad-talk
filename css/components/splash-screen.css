@@ -1,0 +1,35 @@
+#splash-screen {
+  background-color: var(--sub-color);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  z-index: 20;
+  animation: hideSplashScreen 0.8s ease-in-out forwards;
+  animation-delay: 0.1s;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes movingImg {
+  form {
+    transform: none;
+  }
+  to {
+    transform: translateX(-300px) translateY(-700px) scale(0.3);
+  }
+}
+#splash-screen img {
+  animation: movingImg 1s linear forwards;
+  animation-delay: 0.3s;
+}

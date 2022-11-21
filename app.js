@@ -1,9 +1,17 @@
 // 현재시간으로 status-bar시간 설정
-const date = new Date();
-const hours = ("0" + date.getHours()).slice(-2);
-const minutes = ("0" + date.getMinutes()).slice(-2);
-const timeStr = hours + ":" + minutes;
-document.getElementById("time").innerHTML = timeStr;
+const clock = document.querySelector("#time");
+
+function getTime() {
+  const date = new Date();
+  const hours = date.getHours();
+  const minutes =
+    date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
+  const timeStr = hours + ":" + minutes;
+  clock.innerText = timeStr;
+}
+
+getTime();
+setInterval(getTime, 1000);
 
 // 사용자로부터 입력받은 내용이 정답이면 다음페이지 이동
 function test() {

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Settings</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar-column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar-column">
+        <span id="time"></span>
+      </div>
+      <div class="status-bar-column">
+        <span>75%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back();"
+          ><i class="fa-solid fa-chevron-left fa-xl"></i
+        ></a>
+      </div>
+      <div class="alt-header__column">Settings</div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+      </div>
+    </header>
+
+    <main id="main-settings">
+      <div class="settings-box">
+        <ul class="settings-ul">
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-solid fa-bullhorn"></i>
+            </div>
+            <div class="settings-column">
+              <span>Notices</span>
+            </div>
+          </li>
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-solid fa-flask"></i>
+            </div>
+            <div class="settings-column">Nomad Lab</div>
+          </li>
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-solid fa-circle-info"></i>
+            </div>
+            <div class="settings-column">
+              <div>Version</div>
+              <div>Latest Version</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="settings-box">
+        <ul class="settings-ul">
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="settings-column">
+              <span>Privacy</span>
+            </div>
+          </li>
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="settings-column">
+              <span>Notifications</span>
+            </div>
+          </li>
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="settings-column">
+              <span> Friends </span>
+            </div>
+          </li>
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-regular fa-comment"></i>
+            </div>
+            <div class="settings-column">
+              <span> Chats </span>
+            </div>
+          </li>
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-solid fa-display"></i>
+            </div>
+            <div class="settings-column">
+              <span class="settings-column__noti">
+                Display
+                <div class="settings-noti">N</div>
+              </span>
+            </div>
+          </li>
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-solid fa-brush"></i>
+            </div>
+            <div class="settings-column">
+              <div class="settings-column__noti">
+                Themes
+                <div class="settings-noti">N</div>
+              </div>
+              <div>Default theme</div>
+            </div>
+          </li>
+          <li class="settings-row">
+            <div class="settings-column">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="settings-column">
+              <span> Call </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <nav>
+      <ul class="nav">
+        <li class="nav__list">
+          <a href="friends.html"><i class="fa-regular fa-user fa-xl"></i></a>
+        </li>
+        <li class="nav__list">
+          <a href="chats.html">
+            <i class="fa-regular fa-comment fa-xl"></i>
+            <div class="badge notification">13</div>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__list">
+          <a href="more.html">
+            <i class="fa-solid fa-ellipsis fa-xl"></i>
+            <div class="notification badge"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="app.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/a73efb9e25.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

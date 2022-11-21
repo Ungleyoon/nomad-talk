@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chat Chat</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar-column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar-column">
+        <span id="time"></span>
+      </div>
+      <div class="status-bar-column">
+        <span>75%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back();"
+          ><i class="fa-solid fa-chevron-left fa-xl"></i
+        ></a>
+      </div>
+      <div class="alt-header__column">Muscle Nico</div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+      </div>
+    </header>
+
+    <div class="chatting-room">
+      <div class="timestamp">Monday, November 21, 2022</div>
+      <div class="comment-row other">
+        <div class="comment-column">
+          <img src="screenshot/근육니코.jpeg" />
+        </div>
+        <div class="comment-column">
+          <div class="comment-name">Muscle Nico</div>
+          <div class="comment-text">
+            <div>Hi!</div>
+            <span> 12:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="comment-row mine">
+        <div class="comment-column">
+          <div class="comment-text">
+            <div>Hello! Muscle Nico!!</div>
+            <span> 13:01</span>
+          </div>
+        </div>
+      </div>
+      <div class="comment-row other">
+        <div class="comment-column">
+          <img src="screenshot/근육니코.jpeg" />
+        </div>
+        <div class="comment-column">
+          <div class="comment-name">Muscle Nico</div>
+          <div class="comment-text">
+            <div>Slowly, Constantly! 조급해하지마</div>
+            <span> 13:11</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="typing">
+      <div class="typing-column"><i class="fa-solid fa-plus fa-xl"></i></div>
+      <div class="typing-column">
+        <input type="text" />
+        <i class="fa-regular fa-face-smile fa-xl"></i>
+        <button><i class="fa-solid fa-arrow-up fa-2x"></i></button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/a73efb9e25.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
