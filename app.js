@@ -14,8 +14,8 @@ getTime();
 setInterval(getTime, 1000);
 
 // 사용자로부터 입력받은 내용이 정답이면 다음페이지 이동
-function test() {
-  var pw = document.getElementById("password").value;
+function test(event) {
+  var pw = document.querySelector("#password").value;
   if (
     pw == "니콜라스" ||
     pw == "니코" ||
@@ -25,9 +25,8 @@ function test() {
     pw == "Nicolas Serrano Arevalo"
   ) {
     alert("정답이에요!! ☺️");
-    return true;
   } else {
     alert("정답이 아닙니다!😭");
-    return false;
+    event.preventDefault();
   }
 }
